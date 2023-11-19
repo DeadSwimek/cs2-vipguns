@@ -19,5 +19,5 @@ Permissions using CounterStrikeSharp's [admin framework](https://docs.cssharp.de
 
 | Command      | Permission   |
 | ------------ | ------------ |
-| `css_ak`    | @css/vip     |
-| `css_m4`  | @css/vip   |
+| `/ak`    | @css/vip     |
+| `/m4`  | @css/vip   |
