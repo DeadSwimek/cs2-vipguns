@@ -96,14 +96,14 @@ public class VIPGuns : BasePlugin
                 player.GiveNamedItem("weapon_molotov");
                 player.GiveNamedItem("weapon_smokegrenade");
                 player.GiveNamedItem("weapon_hegrenade");
-                player.PrintToChat($"{Prefix} You got pack number 2.");
+                player.PrintToChat($"{Prefix} You got pack number 1.");
                 Used[client] = 1;
                 LastUsed[client] = 2;
             }
         }
     }
     [RequiresPermissions("@deadswim/vip")]
-    [ConsoleCommand("pack1", "Give you Pack 1")]
+    [ConsoleCommand("pack2", "Give you Pack 2")]
     public void CommandVIP_pack1(CCSPlayerController? player, CommandInfo info)
     {
         var client = player.EntityIndex!.Value.Value;
@@ -128,7 +128,7 @@ public class VIPGuns : BasePlugin
                 player.GiveNamedItem("weapon_molotov");
                 player.GiveNamedItem("weapon_smokegrenade");
                 player.GiveNamedItem("weapon_hegrenade");
-                player.PrintToChat($"{Prefix} You got pack number 1.");
+                player.PrintToChat($"{Prefix} You got pack number 2.");
                 Used[client] = 1;
                 LastUsed[client] = 3; 
             }
