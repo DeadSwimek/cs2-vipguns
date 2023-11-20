@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
@@ -55,9 +55,7 @@ public class VIPGuns : BasePlugin
         if (Round < 5)
         {
             player.PrintToChat($"{Prefix} Must be third round to use this command.");
-        }
-        else
-        {
+        }else{
             if (Used[client] == 1)
             {
                 player.PrintToChat($"{Prefix} You can't use this command 2x.");
@@ -84,8 +82,7 @@ public class VIPGuns : BasePlugin
         if (Round < 5)
         {
             player.PrintToChat($"{Prefix} Must be third round to use this command.");
-        }
-        {
+        }else{
             if (Used[client] == 1)
             {
                 player.PrintToChat($"{Prefix} You can't use this command 2x.");
@@ -117,8 +114,7 @@ public class VIPGuns : BasePlugin
         if (Round < 5)
         {
             player.PrintToChat($"{Prefix} Must be third round to use this command.");
-        }
-        {
+        }else{
             if (Used[client] == 1)
             {
                 player.PrintToChat($"{Prefix} You can't use this command 2x.");
@@ -166,8 +162,7 @@ public class VIPGuns : BasePlugin
         if (Round < 5)
         {
             player.PrintToChat($"{Prefix} Must be third round to use this command.");
-        }
-        {
+        }else{
             if (Used[client] == 1)
             {
                 player.PrintToChat($"{Prefix} You can't use this command 2x.");
